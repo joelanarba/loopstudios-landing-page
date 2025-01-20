@@ -81,4 +81,71 @@ html{
     margin-top: 1rem;
     color: gray; 
 }
-
+.creation{
+    max-width: 130rem;
+    margin: 0 10rem;
+    padding: 4rem;
+    background-color: white;
+    margin-top: -8rem;
+}
+.creation-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+    margin-top: -8rem;
+}
+.creation-header h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.creation-header button{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+.creation-header button:hover{
+    background-color: #444;
+    transition: background-color 0.3s ease-in-out;
+}
+.creations-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.creation-item {
+    text-align: center;
+    position: relative;
+    background: #fff;
+}
+.creation-item img {
+    width: 100%;
+    position: relative;
+}
+.creation-item h3 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    text-align: left;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+}
+.creation-item img:hover {
+    cursor: pointer;
+    color: #444;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+/* .footer{
+    background-color: black;
+    color: white;
+    padding: 4rem;
+    text-align: center;
+} */
